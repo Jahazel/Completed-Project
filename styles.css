@@ -1,0 +1,99 @@
+/* Main Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  font-weight: 600;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.imgg {
+  height: 30rem;
+}
+
+video {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2rem;
+}
+
+/* Links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Figures */
+figure {
+  margin: 2rem 0;
+}
+
+figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
+
+/* --- NEW: Reference Styling --- */
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+ol li a {
+  color: #007bff;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+ol li a:hover {
+  text-decoration: underline;
+}
